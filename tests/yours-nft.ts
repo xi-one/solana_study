@@ -7,7 +7,7 @@ describe("anchor-movie-review-program", () => {
   // Configure the client to use the local cluster.
   const provider = anchor.AnchorProvider.env()
   anchor.setProvider(provider)
-
+  
   const program = anchor.workspace
     .AnchorMovieReviewProgram as Program<AnchorMovieReviewProgram>
 
